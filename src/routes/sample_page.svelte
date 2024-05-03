@@ -1,11 +1,10 @@
 <script>
-    const title = "Event on javascript demo page";
-
+    const pageTitle = "Event on javascript demo page";
 </script>
 
 <svelte:head>
-    <title>Event</title>
-    <meta name="description" content={title} />
+    <title>{pageTitle}</title>
+    <meta name="description" content={pageTitle} />
 </svelte:head>
 
-<h1>{title}</h1>
+<h1>{pageTitle}</h1> 
