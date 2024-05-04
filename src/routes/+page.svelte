@@ -1,4 +1,6 @@
 <script>
+    const pageTitle = "Svelte";
+
     import Menu from "./Menu.svelte";
     const menus = [
         { 
@@ -94,8 +96,13 @@
     ]
 </script>
 
-<h1>Svelte <small class="text-body-secondary">With JavaScript</small></h1>
-<div class="svelte-menu"> 
+<svelte:head>
+    <title>{pageTitle}</title>
+    <meta name="description" content="" />
+</svelte:head>
+
+<div class="app-main"> 
+    <h1>Svelte <small class="text-body-secondary">With JavaScript</small></h1>
     <Menu {menus} depth={1}/>
 </div>
 
