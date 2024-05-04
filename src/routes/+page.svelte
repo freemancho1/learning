@@ -10,88 +10,80 @@
             menus: [
                 {
                     title: "Basic", 
-                    url: "/state", 
-                    desc: "fdsa ldffdsalfj salf jsalfj saljfdlsa jfal", 
-                    menus: [
-                        {
-                            title: "Basic", 
-                            url: "", 
-                            desc: "...", 
-                            menus: []
-                        },
-                        {
-                            title: "Basic", 
-                            url: "", 
-                            desc: "...", 
-                            menus: [
-                                {
-                    title: "Basic", 
                     url: "", 
-                    desc: "...", 
-                    menus: [
-                        {
-                            title: "Basic", 
-                            url: "", 
-                            desc: "...", 
-                            menus: []
-                        },
-                        {
-                            title: "Basic", 
-                            url: "", 
-                            desc: "...", 
-                            menus: []
-                        }
-                    ]
-                },
+                    desc: "Basic syntax of Svelte.", 
+                    menus: []
+                }, 
                 {
-                    title: "Basic", 
+                    title: "Responsive", 
                     url: "", 
-                    desc: "...", 
+                    desc: "Define reactive variables, conditionals, and code regions.", 
+                    menus: []
+                }, 
+                {
+                    title: "If~Then", 
+                    url: "", 
+                    desc: "Basic using of if ~ else if ~ then.", 
+                    menus: []
+                },   
+                {
+                    title: "Each", 
+                    url: "", 
+                    desc: "Check the change in cases where 'id' is used and " +
+                          "when it is not used during repetition with each statement.", 
                     menus: []
                 },
-                            ]
-                        }
-                    ]
-                },
                 {
-                    title: "Basic", 
+                    title: "Await", 
                     url: "", 
-                    desc: "...", 
+                    desc: "How to do asynchronous processing in Javascript and Templates.", 
                     menus: []
-                },
-            ]
+                },                
+            ],
         },
         { 
-            title: "Basic", 
-            url: "", 
-            desc: "...", 
+            title: "Event", 
+            url: "/event", 
+            desc: "Introducing various ways to handle event.", 
             menus: [
                 {
-                    title: "Basic", 
-                    url: "", 
-                    desc: "...", 
+                    title: "Events", 
+                    url: "/event/events", 
+                    desc: "Introduction to various events.", 
                     menus: [
                         {
-                            title: "Basic", 
+                            title: "Mouse Move Event", 
                             url: "", 
-                            desc: "...", 
+                            desc: "Handle mouse movement events in a specific area through general function calling methods and inline function calling methods.", 
                             menus: []
-                        },
-                        {
-                            title: "Basic", 
-                            url: "", 
-                            desc: "...", 
-                            menus: []
-                        }
+                        },   
                     ]
-                },
+                },   
                 {
-                    title: "Basic", 
+                    title: "Call Event Handler", 
                     url: "", 
-                    desc: "...", 
+                    desc: "How to call event handlers with arguments and event handlers without arguments.", 
+                    menus: []
+                },   
+                {
+                    title: "Dispatcher", 
+                    url: "", 
+                    desc: "Basic techniques throughout the Svelte.", 
+                    menus: []
+                },   
+                {
+                    title: "Add Component Event", 
+                    url: "", 
+                    desc: "How to assign a click event to a component.", 
                     menus: []
                 },
-            ]
+                {
+                    title: "Indicator", 
+                    url: "", 
+                    desc: "Instructs how to execute an event.", 
+                    menus: []
+                },
+            ],
         },
     ]
 </script>

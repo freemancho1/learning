@@ -1,6 +1,11 @@
 <script>
-    const pageTitle = "Base";
-    const pageDesc = "Basic techniques throughout the Svelte.";
+    const pageTitle = "Event";
+    const pageDesc = "Introducing various ways to handle event.";
+
+    import CallEventHandler from "./CallEventHandler.svelte";
+    import Dispatcher from "./Dispatcher.svelte";
+    import ComponentClick from "./ComponentClick.svelte";
+    import Indicator from "./Indicator.svelte";
 </script>
 
 <svelte:head>
@@ -15,7 +20,10 @@
     <h1 on:click="{()=>location.assign('/')}">{pageTitle}</h1> 
     <h2><small class="text-body-secondary">{pageDesc}</small></h2>
 
-
+    <CallEventHandler />
+    <Dispatcher />
+    <ComponentClick />
+    <Indicator />
 </div>
 
 

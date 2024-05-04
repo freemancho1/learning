@@ -1,6 +1,8 @@
 <script>
-    const pageTitle = "Base";
-    const pageDesc = "Basic techniques throughout the Svelte.";
+    const pageTitle = "Events";
+    const pageDesc = "Introduction to various events.";
+
+    import MouseEvent from "./MouseEvent.svelte";
 </script>
 
 <svelte:head>
@@ -15,7 +17,7 @@
     <h1 on:click="{()=>location.assign('/')}">{pageTitle}</h1> 
     <h2><small class="text-body-secondary">{pageDesc}</small></h2>
 
-
+    <MouseEvent />
 </div>
 
 
