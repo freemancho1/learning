@@ -92,6 +92,25 @@
                 },
             ],
         },
+        { 
+            title: "Special examples", 
+            url: "", 
+            desc: "Examples each consisting of one page.", 
+            menus: [
+                {
+                    title: "Folder",
+                    url: "/special/folder",
+                    desc: "Explorer implementation in vscode.",
+                    menus: []
+                },
+                {
+                    title: "News",
+                    url: "/special/news",
+                    desc: "Shows a list of news articles and comments.",
+                    menus: []
+                },
+            ],
+        },
     ]
 </script>
 
