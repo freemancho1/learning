@@ -12,7 +12,14 @@
                     title: "Basic", 
                     url: "", 
                     desc: "Basic syntax of Svelte.", 
-                    menus: []
+                    menus: [
+                        {
+                            title: "Binding", 
+                            url: "/base/binding", 
+                            desc: "How to assign values to variables.", 
+                            menus: []
+                        },        
+                    ]
                 }, 
                 {
                     title: "Responsive", 

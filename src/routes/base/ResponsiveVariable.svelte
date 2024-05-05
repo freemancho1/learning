@@ -4,6 +4,29 @@
 
     // Define Responsive Variables
     let count = 0;
+    
+    const increase = () => count++;
+    const decrease = () => count--;
+
+    // Define Responsive If
+    $: if(count >= 10) {
+        alert("Count can\'t be greater than 9");
+        count = 9;
+    }
+    $: if(count < 0) {
+        alert("Count can\'t be smaller than 0");
+        count = 0;
+    }
+
+    // Define Responsive Variables
+    $: squared = count * count;
+    let threeSquared;
+
+    $: {
+        console.log("Squared: " + squared);
+        threeSquared = count * count * count;
+    }
+
 </script>
 
 <div class="comps">
@@ -13,7 +36,15 @@
     <h5>* Responsive variables assigned to other responsive variables are not processed within the page until you change them yourself.</h5>
 
     <div class="comps-body">
-        
+        <h5>
+            Current Count: {count} 
+            {count <= 1 ? "time": "times"}
+            {console.log(count)}
+        </h5>
+        <h5>Squared: {squared}, 3-Squared: {threeSquared}</h5>
+
+        <button class="btn btn-success" on:click={increase}> + </button>
+        <button class="btn btn-info" on:click={decrease}> - </button>
     </div>
     
 </div>

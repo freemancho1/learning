@@ -17,6 +17,11 @@
         <h5 class="sub-title">* Using <strong>@html</strong></h5>
         <p>If the attribute name and the variable name to be assigned are the same, the attribute name can be omitted.</p>
         <xmp>{@html "<img src={url} alt='kdn-logo'/> <img {src} alt='kdn-logo'/>"}</xmp>
+
+        <h5 class="sub-title">* Using <strong>@const</strong></h5>
+        <xmp>{@html "{@const assignment}"}</xmp>
+        <p>The {@html "{@const ...}"} tag defines a local constant.</p>
+        <p>{@html "{@const} is only allowed as direct child of {#if}, {:else if}, {:else}, {#each}, {:then}, {:catch}, "}{"<Component /> or <svelte:fragment />."}</p>
     </div>
     
 </div>
