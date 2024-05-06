@@ -4,6 +4,8 @@
     export let item;
     export let returnTo;
 
+    console.log(`****${item}`);
+
     $: url = !item.domain ? `https://news.ycombinator.com/${item.url}`: item.url;
 </script>
 

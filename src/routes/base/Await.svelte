@@ -4,7 +4,7 @@
 
     async function getWebData() {
         const response = await fetch(`https://jsonplaceholder.typicode.com/posts/1`);
-        const data = await response.text();
+        const data = await response.text(); 
 
         if (response.ok) {
             return data;

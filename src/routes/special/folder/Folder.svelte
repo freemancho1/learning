@@ -11,7 +11,7 @@
     }
 </script>
 
-<button class:expanded on:click={toggle}>{name}</button>
+<button class:expanded on:click={toggle}>{name}**</button>
 
 {#if expanded}
     <ul transition:slide={{ duration: 300 }}>
