@@ -109,6 +109,12 @@
                     desc: "Shows a list of news articles and comments.",
                     menus: []
                 },
+                {
+                    title: "Title",
+                    url: "/special/module_export",
+                    desc: "Shows a list of news articles and comments.",
+                    menus: []
+                },
             ],
         },
     ]
