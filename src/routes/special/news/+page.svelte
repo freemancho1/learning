@@ -28,6 +28,10 @@
     }
 
     onMount(hashChange);
+    // or
+    // onMount(() => {
+    //     console.log('aaaaaa');
+    // });
 </script>
 
 <svelte:head>
