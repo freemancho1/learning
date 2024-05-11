@@ -93,6 +93,37 @@
             ],
         },
         { 
+            title: "7 GUIs", 
+            url: "/7guis", 
+            desc: "A GUI Programming Benchmark.", 
+            menus: [
+                {
+                    title: "Counter",
+                    url: "",
+                    desc: "Challenge: Understanding the basic ideas of a language or toolkit.",
+                    menus: []
+                },
+                {
+                    title: "Temperature Converter",
+                    url: "",
+                    desc: "Challenge: Bidirectional data flow and User-provided text input.",
+                    menus: []
+                },
+                {
+                    title: "Flight Booker",
+                    url: "",
+                    desc: "Challenge: Constraints.",
+                    menus: []
+                },
+                {
+                    title: "Timer",
+                    url: "",
+                    desc: "Challenge: Concurrency, Competing user/signal interactions, Responsiveness.",
+                    menus: []
+                },
+            ],
+        },
+        { 
             title: "Special examples", 
             url: "", 
             desc: "Examples each consisting of one page.", 
@@ -110,9 +141,9 @@
                     menus: []
                 },
                 {
-                    title: "Title",
+                    title: "Import Module",
                     url: "/special/module_export",
-                    desc: "Shows a list of news articles and comments.",
+                    desc: "Import specific modules and components from one Svelte file.",
                     menus: []
                 },
             ],

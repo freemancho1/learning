@@ -6,7 +6,7 @@
 
 <div class="comps">
     <h3>{compsTitle}</h3>
-    <h4>{compsDescription}</h4>
+    <h5>{compsDescription}</h5>
 
     <div class="comps-body">
 
@@ -16,11 +16,12 @@
     
 </div>
 
-<hr/>
-
 <style>
+    
     .comps-body {
-        margin-top: 1em;
-        margin-bottom: 1em;
+        margin: 2em 2.0em 2.0em 0;
+        padding: 0 0 1em 0;
+        border-bottom: 1px solid #ddd;
     }
+
 </style>
