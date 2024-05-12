@@ -121,6 +121,12 @@
                     desc: "Challenge: Concurrency, Competing user/signal interactions, Responsiveness.",
                     menus: []
                 },
+                {
+                    title: "CRUD",
+                    url: "",
+                    desc: "Challenge: Separation the domain and presentation logic, managing mutation, building a non-trivial layout.",
+                    menus: []
+                },                
             ],
         },
         { 

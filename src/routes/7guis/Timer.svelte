@@ -3,28 +3,20 @@
     let compsTitle = "Timer";
     let compsDescription = "Challenge: Concurrency, Competing user/signal interactions, Responsiveness.";
 
-    // for Test
-    (function myTest() {
-        console.log("start1");
-    })();
-    function myTest() {
-        console.log("start2");
-    }
-
     import { onDestroy } from "svelte";
 
     let elapsed = 0;
     let duration = 5000;
 
-    let lastTiem = window.performance.now();
+    let lastTime = window.performance.now();
     let frame;
 
     (function update() {
         frame = requestAnimationFrame(update);
         
         const time = window.performance.now();
-        elapsed += Math.min(time - lastTiem, duration - elapsed);
-        lastTiem = time;
+        elapsed += Math.min(time - lastTime, duration - elapsed);
+        lastTime = time;
     })();
 
     onDestroy(() => {

@@ -17,7 +17,6 @@
     <Counter />
     <TemperatureConverter />
     <FlightBooker />
-    <Timer />
+    <!-- <Timer /> -->
     
 </PageTemplate>
-
