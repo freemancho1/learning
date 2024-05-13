@@ -8,6 +8,7 @@
     import TemperatureConverter from "./TemperatureConverter.svelte";
     import FlightBooker from "./FlightBooker.svelte";
     import Timer from "./Timer.svelte";
+    import Crud from "./CRUD.svelte";
 
 </script>
 
@@ -18,5 +19,6 @@
     <TemperatureConverter />
     <FlightBooker />
     <!-- <Timer /> -->
+    <Crud />
     
 </PageTemplate>
