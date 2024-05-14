@@ -9,6 +9,7 @@
     import FlightBooker from "./FlightBooker.svelte";
     import Timer from "./Timer.svelte";
     import Crud from "./CRUD.svelte";
+    import CircleDrawer from "./CircleDrawer.svelte";
 
 </script>
 
@@ -20,5 +21,6 @@
     <FlightBooker />
     <!-- <Timer /> -->
     <Crud />
+    <CircleDrawer />
     
 </PageTemplate>

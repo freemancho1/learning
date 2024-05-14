@@ -93,8 +93,8 @@
             ],
         },
         { 
-            title: "7 GUIs", 
-            url: "/7guis", 
+            title: "6 GUIs", 
+            url: "/6guis", 
             desc: "A GUI Programming Benchmark.", 
             menus: [
                 {
@@ -126,6 +126,12 @@
                     url: "",
                     desc: "Challenge: Separation the domain and presentation logic, managing mutation, building a non-trivial layout.",
                     menus: []
+                },   
+                {
+                    title: "Circle Drawer",
+                    url: "",
+                    desc: "Challenge: Undo/Redo, custom drawing, Dialog control.",
+                    menus: []
                 },                
             ],
         },
@@ -153,6 +159,12 @@
                     menus: []
                 },
             ],
+        },
+        { 
+            title: "Todo List", 
+            url: "/todo-list", 
+            desc: "Todo list like Google Todo list.", 
+            menus: []
         },
     ]
 </script>
